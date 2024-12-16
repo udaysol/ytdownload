@@ -109,9 +109,3 @@ Currently, the script does not crop thumbnails or embed cropped thumbnails into 
 ## Contributing
 
 Feel free to open issues or pull requests if you have improvements or bug fixes for this project.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
