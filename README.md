@@ -26,11 +26,32 @@ Before running this project, ensure you have the following installed:
    pip install yt-dlp
    ```
 3. **FFmpeg**  
-   Ensure FFmpeg is installed and added to your system's PATH.  
-   - On Linux:  
+   Ensure FFmpeg is installed and added to your system's PATH. Below are the installation instructions for popular Linux distributions:
+
+   - Debian/Ubuntu-Based Distributions:  
      ```bash
+     sudo apt update
      sudo apt install ffmpeg
      ```
+
+   - Fedora/RHEL-Based Distributions:  
+     ```bash
+     sudo dnf install ffmpeg
+     ```
+
+   - Arch Linux/Manjaro:  
+     ```bash
+     sudo pacman -S ffmpeg
+     ```
+
+   - openSUSE:  
+     ```bash
+     sudo zypper install ffmpeg
+     ```
+
+   - For Other Distributions:  
+     Refer to your package manager documentation or download FFmpeg directly from [FFmpeg.org](https://ffmpeg.org/).
+     
    - On macOS:  
      ```bash
      brew install ffmpeg
